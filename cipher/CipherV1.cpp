@@ -59,8 +59,6 @@ using std::shared_ptr;
 
 namespace encfs {
 
-const int MAX_KEYLENGTH = 64;  // in bytes (256 bit)
-const int MAX_IVLENGTH = 16;
 const int KEY_CHECKSUM_BYTES = 4;
 
 #ifndef MIN
